@@ -1,4 +1,4 @@
-FROM danieldiasjava/danieldiasjava-dockerfiles:latest
+FROM danieldiasjava/danieldiasjava-dockerfiles:ubuntuBase
 
 EXPOSE 4403 4848 8009 8080 8181 22
 
