@@ -1,4 +1,4 @@
-FROM eclipse/stack-base:ubuntu
+FROM danieldiasjava/danieldiasjava-dockerfiles:latest
 
 EXPOSE 4403 4848 8009 8080 8181 22
 
