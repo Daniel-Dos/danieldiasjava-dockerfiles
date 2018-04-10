@@ -10,7 +10,7 @@ ENV PAYARA_VERSION 5.181
  # RUN mkdir /home/user/java8 && \
    # wget -qO- "https://github.com/AdoptOpenJDK/openjdk8-openj9-releases/releases/download/jdk8u162-b12_openj9-0.8.0/OpenJDK8-OPENJ9_x64_Linux_jdk8u162-b12_openj9-0.8.0.tar.gz" | tar -zx --strip-components=1 -C /home/user/java8
 
-    RUN sudo apt-get install --only-upgrade openjdk-8-jdk
+    RUN sudo apt-get install --only-upgrade openjdk-8-jdk -y
    ENV MAVEN_VERSION=3.5.3 \
        JAVA_HOME=/usr/lib/jvm/java-1.8.0-openjdk-amd64\
        PAYARA_HOME=/home/user/payara5 \
